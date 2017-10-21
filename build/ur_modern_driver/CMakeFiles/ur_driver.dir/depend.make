@@ -248,6 +248,15 @@ CMakeFiles/ur_driver.dir/src/ur_realtime_communication.cpp.o: /opt/ros/kinetic/i
 CMakeFiles/ur_driver.dir/src/ur_realtime_communication.cpp.o: /opt/ros/kinetic/include/xmlrpcpp/XmlRpcDecl.h
 CMakeFiles/ur_driver.dir/src/ur_realtime_communication.cpp.o: /opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h
 
+CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o: /home/miguel/ws_moveit/devel/.private/ur_msgs/include/ur_msgs/Analog.h
+CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o: /home/miguel/ws_moveit/devel/.private/ur_msgs/include/ur_msgs/Digital.h
+CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o: /home/miguel/ws_moveit/devel/.private/ur_msgs/include/ur_msgs/IOStates.h
+CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o: /home/miguel/ws_moveit/devel/.private/ur_msgs/include/ur_msgs/SetIO.h
+CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o: /home/miguel/ws_moveit/devel/.private/ur_msgs/include/ur_msgs/SetIORequest.h
+CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o: /home/miguel/ws_moveit/devel/.private/ur_msgs/include/ur_msgs/SetIOResponse.h
+CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o: /home/miguel/ws_moveit/devel/.private/ur_msgs/include/ur_msgs/SetPayload.h
+CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o: /home/miguel/ws_moveit/devel/.private/ur_msgs/include/ur_msgs/SetPayloadRequest.h
+CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o: /home/miguel/ws_moveit/devel/.private/ur_msgs/include/ur_msgs/SetPayloadResponse.h
 CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o: /home/miguel/ws_moveit/src/ur_modern_driver/include/ur_modern_driver/do_output.h
 CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o: /home/miguel/ws_moveit/src/ur_modern_driver/include/ur_modern_driver/robot_state.h
 CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o: /home/miguel/ws_moveit/src/ur_modern_driver/include/ur_modern_driver/robot_state_RT.h
@@ -429,15 +438,6 @@ CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o: /opt/ros/kinetic/include/tf2_
 CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o: /opt/ros/kinetic/include/tf2_ros/transform_broadcaster.h
 CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o: /opt/ros/kinetic/include/trajectory_msgs/JointTrajectory.h
 CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o: /opt/ros/kinetic/include/trajectory_msgs/JointTrajectoryPoint.h
-CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o: /opt/ros/kinetic/include/ur_msgs/Analog.h
-CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o: /opt/ros/kinetic/include/ur_msgs/Digital.h
-CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o: /opt/ros/kinetic/include/ur_msgs/IOStates.h
-CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o: /opt/ros/kinetic/include/ur_msgs/SetIO.h
-CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o: /opt/ros/kinetic/include/ur_msgs/SetIORequest.h
-CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o: /opt/ros/kinetic/include/ur_msgs/SetIOResponse.h
-CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o: /opt/ros/kinetic/include/ur_msgs/SetPayload.h
-CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o: /opt/ros/kinetic/include/ur_msgs/SetPayloadRequest.h
-CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o: /opt/ros/kinetic/include/ur_msgs/SetPayloadResponse.h
 CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o: /opt/ros/kinetic/include/xmlrpcpp/XmlRpcDecl.h
 CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o: /opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h
 

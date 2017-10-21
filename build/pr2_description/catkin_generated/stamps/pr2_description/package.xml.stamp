@@ -1,29 +1,37 @@
-<package>
-  <name>pr2_description</name>
-  <version>1.12.0</version>
-  <description>This package contains the description (mechanical, kinematic, visual,
-  etc.) of the PR2 robot.  The files in this package are parsed and used by
-  a variety of other components.  Most users will not interact directly
-  with this package.</description>
-  <maintainer email="dash@clearpathrobotics.com">Devon Ash</maintainer>
-
+<?xml version="1.0"?>
+<package format="2">
+  <name>catkin</name>
+  <version>0.7.6</version>
+  <description>Low-level build system macros and infrastructure for ROS.</description>
+  <maintainer email="dthomas@osrfoundation.org">Dirk Thomas</maintainer>
   <license>BSD</license>
 
-  <url type="website">http://ros.org/wiki/pr2_description</url>
-  <url type="bugtracker">https://github.com/PR2/pr2_common/issues</url>
+  <url type="website">http://www.ros.org/wiki/catkin</url>
+  <url type="bugtracker">https://github.com/ros/catkin/issues</url>
+  <url type="repository">https://github.com/ros/catkin</url>
 
-  <author>John Hsu</author>
-  <author>Eric Berger</author>
-  <author>Austin Hendrix</author>
+  <author>Troy Straszheim</author>
+  <author>Morten Kjaergaard</author>
+  <author>Brian Gerkey</author>
+  <author>Dirk Thomas</author>
 
-  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>cmake</buildtool_depend>
+  <buildtool_export_depend>cmake</buildtool_export_depend>
 
-  <build_depend>convex_decomposition</build_depend>
-  <build_depend>ivcon</build_depend>
+  <depend>python-argparse</depend>
+  <depend version_gt="0.2.9">python-catkin-pkg</depend>
 
-  <run_depend>xacro</run_depend>
+  <build_depend>python-empy</build_depend>
 
-  <test_depend>gtest</test_depend>
-  <test_depend>liburdfdom-dev</test_depend>
-  <!-- <test_depend>urdfdom</test_depend> As of Indigo this is a system deb at liburdfdom-dev -->
+  <build_export_depend>gtest</build_export_depend>
+  <build_export_depend>python-empy</build_export_depend>
+  <build_export_depend>python-nose</build_export_depend>
+
+  <test_depend>python-mock</test_depend>
+  <test_depend>python-nose</test_depend>
+
+  <export>
+    <rosdoc config="rosdoc.yaml"/>
+    <architecture_independent/>
+  </export>
 </package>

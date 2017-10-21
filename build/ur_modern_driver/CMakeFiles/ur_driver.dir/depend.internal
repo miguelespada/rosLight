@@ -249,6 +249,15 @@ CMakeFiles/ur_driver.dir/src/ur_realtime_communication.cpp.o
  /opt/ros/kinetic/include/xmlrpcpp/XmlRpcDecl.h
  /opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h
 CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o
+ /home/miguel/ws_moveit/devel/.private/ur_msgs/include/ur_msgs/Analog.h
+ /home/miguel/ws_moveit/devel/.private/ur_msgs/include/ur_msgs/Digital.h
+ /home/miguel/ws_moveit/devel/.private/ur_msgs/include/ur_msgs/IOStates.h
+ /home/miguel/ws_moveit/devel/.private/ur_msgs/include/ur_msgs/SetIO.h
+ /home/miguel/ws_moveit/devel/.private/ur_msgs/include/ur_msgs/SetIORequest.h
+ /home/miguel/ws_moveit/devel/.private/ur_msgs/include/ur_msgs/SetIOResponse.h
+ /home/miguel/ws_moveit/devel/.private/ur_msgs/include/ur_msgs/SetPayload.h
+ /home/miguel/ws_moveit/devel/.private/ur_msgs/include/ur_msgs/SetPayloadRequest.h
+ /home/miguel/ws_moveit/devel/.private/ur_msgs/include/ur_msgs/SetPayloadResponse.h
  /home/miguel/ws_moveit/src/ur_modern_driver/include/ur_modern_driver/do_output.h
  /home/miguel/ws_moveit/src/ur_modern_driver/include/ur_modern_driver/robot_state.h
  /home/miguel/ws_moveit/src/ur_modern_driver/include/ur_modern_driver/robot_state_RT.h
@@ -430,14 +439,5 @@ CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o
  /opt/ros/kinetic/include/tf2_ros/transform_broadcaster.h
  /opt/ros/kinetic/include/trajectory_msgs/JointTrajectory.h
  /opt/ros/kinetic/include/trajectory_msgs/JointTrajectoryPoint.h
- /opt/ros/kinetic/include/ur_msgs/Analog.h
- /opt/ros/kinetic/include/ur_msgs/Digital.h
- /opt/ros/kinetic/include/ur_msgs/IOStates.h
- /opt/ros/kinetic/include/ur_msgs/SetIO.h
- /opt/ros/kinetic/include/ur_msgs/SetIORequest.h
- /opt/ros/kinetic/include/ur_msgs/SetIOResponse.h
- /opt/ros/kinetic/include/ur_msgs/SetPayload.h
- /opt/ros/kinetic/include/ur_msgs/SetPayloadRequest.h
- /opt/ros/kinetic/include/ur_msgs/SetPayloadResponse.h
  /opt/ros/kinetic/include/xmlrpcpp/XmlRpcDecl.h
  /opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h

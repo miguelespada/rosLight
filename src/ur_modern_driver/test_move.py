@@ -49,7 +49,7 @@ def randomMove():
     print Q1
     g.trajectory.points = [
         JointTrajectoryPoint(positions=joints_pos, velocities=[0]*6, time_from_start=rospy.Duration(0.0)),
-        JointTrajectoryPoint(positions=Q1, velocities=[0]*6, time_from_start=rospy.Duration(5.0)),
+        JointTrajectoryPoint(positions=Q1, velocities=[0]*6, time_from_start=rospy.Duration(10.0)),
         ]
     return g
 
@@ -88,7 +88,7 @@ def main():
         group = moveit_commander.MoveGroupCommander("manipulator")
 
         clientOSC = OSCClient()
-        clientOSC.connect( ("127.0.0.1", 12000) )
+        clientOSC.connect( ("192.168.1.51", 12000) )
 
 
         thread.start_new_thread ( printRoll, () )

@@ -22,7 +22,8 @@ void setup() {
   
   // Select correct arduino port
   String portName = Serial.list()[0];
-  myPort = new Serial(this, portName, 9600);
+  myPort = new Serial(this, portName, 57600);
+  delay(1000);
 }
 
 void draw() {
